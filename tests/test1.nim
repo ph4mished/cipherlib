@@ -6,7 +6,7 @@
 # To run these tests, simply execute `nimble test`.
 
 import unittest
-import cipherlib, encoding_lib
+import cipherlib
 
 test "Caesar Cipher":
   check caesarEncode("Hello World", 3) == "Khoor Zruog"
